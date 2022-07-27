@@ -19,4 +19,4 @@
 
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9bd51e32-8582-472a-aa96-9d71400191b8/deploy-status)](https://app.netlify.com/sites/rohankaushik4thproject/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9bd51e32-8582-472a-aa96-9d71400191b8/deploy-status)](https://rohankaushik4thproject.netlify.app/)

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0px;
+    font-family: Ubuntu;
+}
+body{
+   background-image: url(assets/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+}
+
+[alt="logo"]{
+    height: 30px;
+    margin: 18px;
+    border-radius: 3px;
+}
+
+ul{
+    position: relative;
+    top: -93px;
+    list-style: none;
+    margin-left: 240px;
+}
+
+.list-item{
+    float: left;
+    margin-left: 50px;
+}
+
+.button-small{
+    position: relative;
+    background-color: rgb(226, 85, 231);
+    height: 25px;
+    width: 110px;
+    border-radius: 7px;
+    top: -93px;
+    right: -280px;
+    box-shadow: 1px 1px #888888;
+}
+
+.button-small:hover {
+    box-shadow: 2px 2px #888888;
+
+}
+
+.hero-heading{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    width: 590px;
+    top: 130px;
+    left: 440px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0a4ca, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+     -webkit-animation: glow 1s ease-in-out infinite alternate;
+     -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0a4ca, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f70958, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+.hero-description{
+    position: absolute;
+    color: rgb(247, 227, 252);
+    text-shadow: 1px 1px rgb(190, 44, 226);
+    font-size: 20px;
+    width: 590px;
+    top: 350px;
+    left: 440px;
+    text-align: center;
+
+
+}
+
+.line{
+    position: relative;
+    height: 45px;
+    width: 0px;
+    top: -60px;
+    left:190px;
+    border: 1px solid white;
+}
+.button-large{
+    position: absolute;
+    background-color: rgb(193, 21, 209);
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px black;
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+    top: 490px;
+    left: 640px;   
+}
+
+.button-large:hover{
+
+    box-shadow: 2px 2px #000000;
+    background-color:rgb(207, 0, 226) ;
+}
+
